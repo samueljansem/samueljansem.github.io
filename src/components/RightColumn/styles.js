@@ -1,12 +1,6 @@
 import styled from 'styled-components';
 
 const Container = styled.div`
-  width: 100%;
-  height: 1185px;
-  margin-top: 15px;
-`;
-
-const RightColumn = styled.div`
   padding-top: 5%;
   width: 70%;
   height: 100%;
@@ -16,10 +10,14 @@ const RightColumn = styled.div`
   }
 `;
 
-const Perfil = styled.div`
+const Wrapper = styled.div`
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
+`;
+
+const Perfil = styled.section`
+  margin-bottom: 20px;
 `;
 
 const PerfilTitle = styled.h2`
@@ -35,15 +33,37 @@ const PerfilDescription = styled.p`
   padding-top: 5px;
 `;
 
-const Experiencias = styled.div``;
-const ExperienciasTitle = styled.h2``;
-const ExperienciaItem = styled.div``;
-const ExperienciaItemTitle = styled.h3``;
-const ExperienciaItemDescription = styled.p``;
+const Experiencias = styled.section`
+  margin-bottom: 20px;
+`;
+
+const ExperienciasTitle = styled.h2`
+  font-family: 'averta-regular';
+  font-size: 22px;
+  width: 100%;
+  margin-bottom: 10px;
+`;
+
+const ExperienciaItem = styled.div`
+  margin-bottom: 20px;
+`;
+
+const ExperienciaItemTitle = styled.h3`
+  font-family: 'averta-regular';
+  font-size: 18px;
+  width: 100%;
+`;
+
+const ExperienciaItemDescription = styled.p`
+  width: 100%;
+  font-family: 'averta-regular';
+  font-size: 14px;
+  padding-top: 5px;
+`;
 
 export {
   Container,
-  RightColumn,
+  Wrapper,
   ExperienciaItem,
   ExperienciaItemDescription,
   ExperienciaItemTitle,
