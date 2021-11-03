@@ -16,42 +16,51 @@ const Wrapper = styled.div`
   padding-right: 15px;
 `;
 
-const Perfil = styled.section`
-  margin-bottom: 20px;
-`;
-
-const PerfilTitle = styled.h2`
-  font-family: 'averta-regular';
-  font-size: 22px;
-  width: 100%;
-`;
-
-const PerfilDescription = styled.p`
-  width: 100%;
-  font-family: 'averta-regular';
-  font-size: 14px;
-  padding-top: 5px;
-`;
-
-const Experiencias = styled.section`
-  margin-bottom: 20px;
-`;
-
-const ExperienciasTitle = styled.h2`
+const Title2 = styled.h2`
   font-family: 'averta-regular';
   font-size: 22px;
   width: 100%;
   margin-bottom: 10px;
 `;
 
-const ExperienciaItem = styled.div`
-  margin-bottom: 20px;
-`;
-
-const ExperienciaItemTitle = styled.h3`
+const Title3 = styled.h3`
   font-family: 'averta-regular';
   font-size: 18px;
   width: 100%;
+`;
+
+const Title4 = styled.h4`
+  font-family: 'averta-regular';
+  font-size: 15px;
+  width: 100%;
+`;
+
+const P = styled.p`
+  width: 100%;
+  font-family: 'averta-regular';
+  font-size: 14px;
+`;
+
+const Span = styled.span`
+  color: var(--text);
+`;
+
+const Perfil = styled.section`
+  margin-bottom: 20px;
+`;
+
+const PerfilDescription = styled.p`
+  width: 100%;
+  font-family: 'averta-regular';
+  font-size: 14px;
+`;
+
+const Experiencias = styled.section`
+  margin-bottom: 20px;
+`;
+
+const ExperienciaItem = styled.div`
+  margin-bottom: 20px;
 `;
 
 const ExperienciaItemDescription = styled.p`
@@ -61,15 +70,50 @@ const ExperienciaItemDescription = styled.p`
   padding-top: 5px;
 `;
 
+const Skills = styled.section`
+  margin-bottom: 20px;
+  display: flex;
+`;
+
+const SkillsColumn = styled.div`
+  width: 50%;
+`;
+
+const SkillsList = styled.ul`
+  list-style-type: circle;
+  list-style-position: inside;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+`;
+
+const SkillItem = styled.li`
+  font-family: 'averta-regular';
+  font-size: 14px;
+  color: var(--orange);
+  width: 100%;
+`;
+
+const Formacao = styled.section`
+  margin-bottom: 20px;
+`;
+
 export {
   Container,
   Wrapper,
+  Title2,
+  Title3,
+  Title4,
+  P,
+  Span,
   ExperienciaItem,
   ExperienciaItemDescription,
-  ExperienciaItemTitle,
   Experiencias,
-  ExperienciasTitle,
   Perfil,
   PerfilDescription,
-  PerfilTitle,
+  Skills,
+  SkillsColumn,
+  SkillsList,
+  SkillItem,
+  Formacao,
 };

@@ -26,17 +26,40 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
-  html {
+  html, body, #root {
+    max-width: 100vw;
+    max-height: 100vh;
     height: 100%;
     width: 100%;
-    background: var(--color-background);
+    background: var(--background);
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+    background-color: transparent;
+
+  }
+
+  ::-webkit-scrollbar-button {
+      display: none;
+      width: 0;
+      height: 0;
+  }
+
+  ::-webkit-scrollbar-corner {
+      background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+      background-color: var(--orange);
+      height: 100px;
   }
 
   :root {
-    --color-white: #fff;
-    --color-black: #000;
-    --color-background: #fcfcfc;
-    --color-text: #242625;
-    --color-orange: #FF7518;
+    --white: #fff;
+    --black: #000;
+    --background: #fcfcfc;
+    --text: #242625;
+    --orange: #FF7518;
   }
 `;
