@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const Layout = styled.div`
   width: 100%;
-  height: 1701px;
+  height: 1100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,7 +10,7 @@ const Layout = styled.div`
 
 const Container = styled.main`
   display: flex;
-  height: 1678px;
+  height: 1077px;
   width: 1190px;
   box-shadow: 1px 1px 10px 0 rgb(0 0 0 / 35%);
 

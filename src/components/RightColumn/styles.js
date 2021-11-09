@@ -18,35 +18,37 @@ const Wrapper = styled.div`
 
 const Title2 = styled.h2`
   font-family: 'averta-regular';
-  font-size: 22px;
+  font-size: 28px;
   width: 100%;
   margin-bottom: 10px;
 `;
 
 const Title3 = styled.h3`
   font-family: 'averta-regular';
-  font-size: 18px;
+  font-size: 24px;
   width: 100%;
 `;
 
 const Title4 = styled.h4`
   font-family: 'averta-regular';
-  font-size: 15px;
+  font-size: 20px;
   width: 100%;
 `;
 
 const P = styled.p`
   width: 100%;
   font-family: 'averta-regular';
-  font-size: 14px;
+  font-size: 16px;
 `;
 
 const Span = styled.span`
   color: var(--text);
+  font-family: 'averta-regular';
+  font-size: 16px;
 `;
 
 const Perfil = styled.section`
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 `;
 
 const PerfilDescription = styled.p`
@@ -56,7 +58,7 @@ const PerfilDescription = styled.p`
 `;
 
 const Experiencias = styled.section`
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 `;
 
 const ExperienciaItem = styled.div`
@@ -71,7 +73,7 @@ const ExperienciaItemDescription = styled.p`
 `;
 
 const Skills = styled.section`
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   display: flex;
 `;
 

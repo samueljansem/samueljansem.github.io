@@ -16,6 +16,7 @@ const Name = styled.h1`
   font-family: 'averta-bold';
   color: var(--background);
   text-align: center;
+  font-size: 36px;
 `;
 
 const Title = styled.h2`

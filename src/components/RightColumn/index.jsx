@@ -14,6 +14,7 @@ import {
   SkillItem,
   Span,
   Formacao,
+  Title4,
 } from './styles';
 
 export default function Portugues() {
@@ -23,10 +24,9 @@ export default function Portugues() {
         <Perfil>
           <Title2>PERFIL</Title2>
           <P>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod laoreet sapien nec
-            suscipit. Donec accumsan vel arcu sit amet semper. Mauris auctor, purus nec tincidunt
-            tincidunt, elit metus vehicula tortor, non imperdiet ligula nulla quis ante. In finibus
-            rhoncus sapien in lobortis.
+            Apaixonado por tecnologia, sempre buscando ampliar e compartilhar meu conhecimento na
+            área de desenvolvimento web utilizando das melhores práticas, sempre prezando pelo
+            trabalho em equipe e pela entrega de valor ao cliente final.
           </P>
         </Perfil>
         <Experiencias>
@@ -35,29 +35,31 @@ export default function Portugues() {
           <ExperienciaItem>
             <Title3>Jabil do Brasil</Title3>
             <P>
-              Nunc id efficitur enim. Nunc tempor vehicula turpis sed fringilla. Cras congue erat
-              mattis nunc venenatis iaculis. Curabitur porttitor mauris purus, et lobortis sapien
-              malesuada sed. Praesent facilisis mi at vestibulum ultricies.
+              Responsável pelo desenvolvimento de software desde a{' '}
+              <strong>captação e análise de requisitos</strong>, codificação, publicação em{' '}
+              <strong>ambiente de testes</strong> e validação junto ao usuário final. Atuando na
+              modelagem de banco de dados <strong>SQL Server</strong> e desenvolvimento web
+              utilizando <strong>.NET</strong>.
             </P>
           </ExperienciaItem>
 
           <ExperienciaItem>
             <Title3>Sinqia</Title3>
             <P>
-              Phasellus tempus, orci nec suscipit tempor, lacus mi malesuada velit, sit amet maximus
-              sapien felis a tellus. Cras justo nisi, sollicitudin quis commodo euismod, porttitor
-              non erat. Nunc sit amet porttitor dui. Duis quam turpis, aliquam eget justo vitae,
-              suscipit semper nisl. Cras ut rhoncus nibh.
+              Responsável pelo desenvolvimento e suporte de aplicações para a área de Previdência.
+              Desenvolvendo <strong>API&apos;s</strong> utilizando <strong>C# .NET</strong>, atuando
+              no front-end com <strong>AngularJS</strong> e dando manutenção em aplicações WebForms
+              já existentes.
             </P>
           </ExperienciaItem>
 
           <ExperienciaItem>
             <Title3>Pense Open</Title3>
             <P>
-              Sed lobortis velit sit amet imperdiet tempor. Praesent quis maximus enim. Aliquam
-              lacinia turpis nec lectus posuere, dictum efficitur neque porta. Praesent nec porta
-              enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-              curae; Donec sed nulla sed neque semper mollis at eget mauris.
+              Responsável pelo desenvolvimento e suporte de soluções web para o cliente MRV
+              Engenharia. Desenvolvendo <strong>API&apos;s REST</strong> aplicando conceito de
+              &nbsp;<strong>DDD/CQRS</strong>, modelagem de banco de dados &nbsp;
+              <strong>SQL Server</strong> via <strong>Entity Framework</strong>
             </P>
           </ExperienciaItem>
         </Experiencias>
@@ -67,34 +69,54 @@ export default function Portugues() {
             <Title2>Habilidades técnicas</Title2>
             <SkillsList>
               <SkillItem>
-                <Span>Captação e análise de requisitos</Span>
+                <Span>
+                  <strong>Captação e análise de requisitos</strong>
+                </Span>
               </SkillItem>
               <SkillItem>
-                <Span>SQL</Span>
+                <Span>
+                  <strong>SQL</strong>
+                </Span>
               </SkillItem>
               <SkillItem>
-                <Span>Entity Framework</Span>
+                <Span>
+                  <strong>Entity Framework</strong>
+                </Span>
               </SkillItem>
               <SkillItem>
-                <Span>.NET</Span>
+                <Span>
+                  <strong>.NET</strong>
+                </Span>
               </SkillItem>
               <SkillItem>
-                <Span>API&apos;s REST</Span>
+                <Span>
+                  <strong>API&apos;s REST</strong>
+                </Span>
               </SkillItem>
               <SkillItem>
-                <Span>React</Span>
+                <Span>
+                  <strong>React</strong>
+                </Span>
               </SkillItem>
               <SkillItem>
-                <Span>SOLID</Span>
+                <Span>
+                  <strong>SOLID</strong>
+                </Span>
               </SkillItem>
               <SkillItem>
-                <Span>DDD</Span>
+                <Span>
+                  <strong>DDD</strong>
+                </Span>
               </SkillItem>
               <SkillItem>
-                <Span>CQRS</Span>
+                <Span>
+                  <strong>CQRS</strong>
+                </Span>
               </SkillItem>
               <SkillItem>
-                <Span>Azure DevOps</Span>
+                <Span>
+                  <strong>Azure DevOps</strong>
+                </Span>
               </SkillItem>
             </SkillsList>
           </SkillsColumn>
@@ -102,37 +124,59 @@ export default function Portugues() {
             <Title2>Habilidades comportamentais</Title2>
             <SkillsList>
               <SkillItem>
-                <Span>Bom relacionamento interpessoal</Span>
+                <Span>
+                  <strong>Bom relacionamento interpessoal</strong>
+                </Span>
               </SkillItem>
               <SkillItem>
-                <Span>Facilidade no aprendizado</Span>
+                <Span>
+                  <strong>Facilidade no aprendizado</strong>
+                </Span>
               </SkillItem>
               <SkillItem>
-                <Span>Pensamento criativo</Span>
+                <Span>
+                  <strong>Pensamento criativo</strong>
+                </Span>
               </SkillItem>
               <SkillItem>
-                <Span>Gerenciamento de tempo</Span>
+                <Span>
+                  <strong>Gerenciamento de tempo</strong>
+                </Span>
               </SkillItem>
               <SkillItem>
-                <Span>Colaborativo</Span>
+                <Span>
+                  <strong>Colaborativo</strong>
+                </Span>
               </SkillItem>
               <SkillItem>
-                <Span>Organizado</Span>
+                <Span>
+                  <strong>Organizado</strong>
+                </Span>
               </SkillItem>
               <SkillItem>
-                <Span>Focado</Span>
+                <Span>
+                  <strong>Focado</strong>
+                </Span>
               </SkillItem>
               <SkillItem>
-                <Span>Comprometido</Span>
+                <Span>
+                  <strong>Comprometido</strong>
+                </Span>
               </SkillItem>
               <SkillItem>
-                <Span>Adaptabilidade</Span>
+                <Span>
+                  <strong>Adaptabilidade</strong>
+                </Span>
               </SkillItem>
               <SkillItem>
-                <Span>Atento a melhorias</Span>
+                <Span>
+                  <strong>Atento a melhorias</strong>
+                </Span>
               </SkillItem>
               <SkillItem>
-                <Span>Visão de negócio</Span>
+                <Span>
+                  <strong>Visão de negócio</strong>
+                </Span>
               </SkillItem>
             </SkillsList>
           </SkillsColumn>
@@ -140,6 +184,14 @@ export default function Portugues() {
 
         <Formacao>
           <Title2>Formação Acadêmica</Title2>
+
+          <Title4>Bacharelado em Sistemas de Informação</Title4>
+          <Span>Pontifícia Universidade Católica de Minas Gerais | (2019-2023)</Span>
+
+          <Title4>Técnico em Automação Industrial</Title4>
+          <Span>
+            Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais | (2014-2018)
+          </Span>
         </Formacao>
       </Wrapper>
     </Container>
