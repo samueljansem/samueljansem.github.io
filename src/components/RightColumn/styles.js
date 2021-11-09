@@ -73,12 +73,18 @@ const ExperienciaItemDescription = styled.p`
 `;
 
 const Skills = styled.section`
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   display: flex;
+  flex-wrap: wrap;
 `;
 
 const SkillsColumn = styled.div`
   width: 50%;
+  margin-bottom: 20px;
+
+  @media (max-width: 850px) {
+    width: 100%;
+  }
 `;
 
 const SkillsList = styled.ul`
